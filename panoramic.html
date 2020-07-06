@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Zhoyq">
+    <meta name="description" content="实现全景天空盒">
+    <meta name="keywords" content="WebGL, 全景天空盒">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>实现全景天空盒</title>
+
+    <link href="css/main.css" rel="stylesheet" >
+</head>
+<body>
+
+    <!-- 加载遮罩 -->
+    <div id="mask" class="mask">
+        <div class="loading-title">加载中...</div>
+        <div class="loading"></div>
+    </div>
+
+    <!-- 版权信息 -->
+    <div class="copyright">@Zhoyq 实现全景天空盒</div>
+
+    <!-- 画布 -->
+    <canvas id="main-canvas" class="main-canvas">No Canvas!</canvas>
+
+    <!-- 脚本 -->
+    <script src="js/gl-matrix-min.js"></script>
+    <script src="js/webgl-utils.js"></script>
+    <script src="js/mouse-utils.js"></script>
+    <script src="js/Camera.js"></script>
+    <script src="panoramic.js"></script>
+</body>
+</html>
