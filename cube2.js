@@ -207,12 +207,12 @@ function renderFrame(ms) {
 
 // 加载图片
 const imagePath = [
-  '/images/sybox/right.jpg',
-  '/images/sybox/left.jpg',
-  '/images/sybox/top.jpg',
-  '/images/sybox/bottom.jpg',
-  '/images/sybox/front.jpg',
-  '/images/sybox/back.jpg'
+  './images/sybox/right.jpg',
+  './images/sybox/left.jpg',
+  './images/sybox/top.jpg',
+  './images/sybox/bottom.jpg',
+  './images/sybox/front.jpg',
+  './images/sybox/back.jpg'
 ];
 
 function onloadImage() {

@@ -206,7 +206,7 @@ function renderFrame(ms) {
 }
 
 // 加载图片
-const imagePath = '/images/helipad.jpg';
+const imagePath = './images/helipad.jpg';
 
 function onloadImage() {
   textureBuf.image = this;
